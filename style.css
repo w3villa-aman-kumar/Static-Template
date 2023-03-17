@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+}
+
+.nav-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+ header a:link{
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    position: relative;
+    left: 150px;
+}
+
+.nav-ul li{
+    top: 10px;
+    display: inline;
+    position: relative;
+    padding: 5px;
+}
+
+#country{
+    border: none;
+    background-color: white;
+}
+
+.Hero{
+    background-image: linear-gradient(rgb(67 69 74 / 50%), rgb(88 132 171 / 50%)),url(town.jpg);
+    height: 100vh;
+    position: relative;
+    /* width: 100vh; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+
+.Hero-text{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    font-family: 'Noto Sans Lepcha';
+    transform: translate(-50%,-50%);
+    position: relative;
+    color: white;
+}
+
+.Hero-button{
+    background-color: #fb6d9d;
+    color: white;
+    border-radius: 55px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    padding: 18px;
+}
+
+/* our mission section css starts from here */
+
+.our-mission{
+    height: 50vh;
+}
+
+.our-mission div{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translate(0%,-50%);
+    
+}
+
+.our-mission h1{
+    padding: 15px;
+    font-family: 'Noto Sans Lepcha';
+    font-size: 40px;
+    color: grey;
+}
+
+.our-mission p{
+    color: slategray;
+    padding: 2px;
+}
+
+/* our mission section css ends here */
+
+/* our people section starts from here */
+
+.our-people{
+    background-color: #edf2f5;
+    height: 100vh;
+    padding: 0px 188px;
+}
+
+.our-people-text-card-wrapper{
+    position: relative;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+
+.our-people-text{
+    text-align: center;
+}
+
+.our-people-text p{
+    color: slategray;
+    padding: 2px;
+    font-family: Poppins;
+}
+
+.flex-wrapper{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#our-people-card-wrapper{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}   
+
+
+#our-people-title{
+    font-size: 50px;
+    color: #545151;
+    padding-bottom: 10px;
+}
+
+.our-people-name{
+    padding: 20px 0px;
+    color: #545151;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.our-people-post{
+    padding-bottom: 5px;
+    color: slategray;
+    font-family: Poppins;
+
+}
+
+.our-people-tag{
+    padding-top: 20px;
+    color: slategray;
+    font-family: Poppins;
+}
+
+.our-people-card img{
+    height: 255px;
+    width: 400px;
+    background-color: #D6D6D1;
+    object-fit: contain;
+}
+
+
+/* footer section starts here */
+
+.footer{
+    background-color: #edf2f5;
+}
+
+#footer-text-div{
+    background-color: #fb6d9d;
+    padding: 60px 188px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-text-div p{
+    color: white;
+    font-family: Poppins;
+    padding: 18px;
+
+}
+
+#footer-text-div button{
+    background-color:  #e35780; 
+    color: white;
+    border-radius: 55px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    padding: 18px;
+}
