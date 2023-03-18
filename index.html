@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="style.css">
         <link href='https://fonts.googleapis.com/css?family=Noto Sans Lepcha' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     </head>
     <body>
         <!-- <header>
@@ -49,6 +50,7 @@
             </nav>
         </header> -->
 
+        <!-- hero section html start here -->
         <section class="Hero">
             <div class="Hero-text">
                 <p>A Powerful Influencer Marketing</p>
@@ -56,33 +58,34 @@
                 <button class="Hero-button">START YOUR FREE TRIAL</button>
             </div>
         </section>
+        <!-- hero section html ends here -->
 
+        <!-- our-mission section starts here -->
         <section class="our-mission">
             <div>
-                <h1>Our Mission</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatem et accusantium beatae. </p>
-                <p>A sapiente minima at alias consequatur sunt ullam obcaecati minus suscipit tenetur eum dolor beatae </p>
-                <p>accusantium natus, doloribus consectetur iste, accusamus labore quibusdam numquam! Molestias error </p>
-                <p>dignissimos quo iste rem numquam iure qui, tenetur ipsam soluta quaerat! Lorem ipsum dolor sit amet </p>
-                <p>consectetur adipisicing elit Voluptatum.</p>
+                <p class="our-mission-titel">Our Mission</p>
+                <p class="our-mission-descp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatem et accusantium beatae. </p>
+                <p class="our-mission-descp">A sapiente minima at alias consequatur sunt ullam obcaecati minus suscipit tenetur eum dolor beatae </p>
+                <p class="our-mission-descp">accusantium natus, doloribus consectetur iste, accusamus labore quibusdam numquam! Molestias error </p>
+                <p class="our-mission-descp">dignissimos quo iste rem numquam iure qui, tenetur ipsam soluta quaerat! Lorem ipsum dolor sit amet </p>
+                <p class="our-mission-descp">consectetur adipisicing elit Voluptatum.</p>
             </div>
         </section>
+        <!-- our mission section ends here -->
 
+        <!-- our people section starts here -->
         <section class="our-people">
-
             <div class="our-people-text-card-wrapper">
-
                 <div class="our-people-text">
                     <p id="our-people-title">Our People</p>
-                    <p class="our-people-Descp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum </p>
-                    <p class="our-people-Descp">naliquid commodi assumenda laudantium doloremque voluptatem, h</p>
-                    <p class="our-people-Descp">atempora, ex excepturi voluptates quidem consectetur iusto fugiatb</p>
-                    <p class="our-people-Descp">voluptate dolorum sed odit.</p>
+                    <p class="our-people-descp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum </p>
+                    <p class="our-people-descp">naliquid commodi assumenda laudantium doloremque voluptatem, h</p>
+                    <p class="our-people-descp">atempora, ex excepturi voluptates quidem consectetur iusto fugiatb</p>
+                    <p class="our-people-descp">voluptate dolorum sed odit.</p>
                 </div>
-
                 <div id="our-people-card-wrapper">
                     <div class="our-people-card">
-                        <img src="Profile_1.png" alt="profile">
+                        <img src="./assets/Profile_1.png" alt="profile">
                         <p class="our-people-name">Aman Kumar</p>
                         <p class="our-people-post">CEO-Founder who makes easy to change and </p> 
                         <p class="our-people-post">easy to create new elements</p>
@@ -90,7 +93,7 @@
                         <p class="our-people-tag">@achoo</p>
                     </div>
                     <div class="our-people-card">
-                        <img src="Profile_2.png" alt="profile">
+                        <img src="./assets/Profile_2.png" alt="profile">
                         <p class="our-people-name">Aman Kumar</p>
                         <p class="our-people-post">CEO-Founder who makes easy to change and</p>
                         <p class="our-people-post">easy to create new elements</p>
@@ -98,7 +101,7 @@
                         <p class="our-people-tag">@achoo</p>
                     </div>
                     <div class="our-people-card">
-                        <img src="Profile_3.png" alt="profile">
+                        <img src="./assets/Profile_3.png" alt="profile">
                         <p class="our-people-name">Aman Kumar</p>
                         <p class="our-people-post">CEO-Founder who makes easy to change and</p>
                         <p class="our-people-post">easy to create new elements</p>
@@ -108,15 +111,16 @@
                  </div>
             </div>
         </section>
+        <!-- our people section ends here -->
 
+        <!-- footer section starts here -->
         <footer class="footer">
-            <div id="footer-text-div" class="flex-wrapper">
+            <div id="footer-text-div">
                 <p>No obligation or contacts. Achoo Influencer platform is available to all advertisers</p>
                 <button>START YOUR FREE TRIAL</button>
             </div>
-
-            <div id="footer-detail-div" class="flex-wrapper">
-                <div>
+            <div id="footer-detail-wrapper">
+                <div class="footer-detail-div">
                     <h4>Achoo</h4>
                     <p><a href="#">Home</a></p>
                     <p><a href="#">Features</a></p>
@@ -124,7 +128,7 @@
                     <p><a href="#">About Us</a></p>
                 </div>
     
-                <div>
+                <div class="footer-detail-div">
                     <h4>Support</h4>
                     <p><a href="#">Help & Support</a></p>
                     <p><a href="#">Privacy Policy</a></p>
@@ -133,14 +137,25 @@
                     <p><a href="#">Log in</a></p>
                 </div>
     
-                <div>
+                <div class="footer-detail-div">
                     <h4>Contact Us</h4>
                     <p>Achoo ApS <br>Danneskiold-Samsoes Alle 41 <br>1434 Copenhagen K <br>Denmark</p>
                     <p>Tel: +91 7004317912</p>
+                    <div class="social-svg">
+                        <img src="./assets/facebook-round.svg" alt="facebook logo">
+                        <img src="./assets/flickr-round.svg" alt="flicker logo">
+                        <img src="./assets/twitter-round.svg" alt="twitter">
+                        <img src="./assets/skype-round.svg" alt="skype logo">
+                    </div>
                 </div>
             </div>
-
+            <hr>
+            <div class="footer-bottom">
+                <h2>Achoo</h2>
+                <p>Achoo ApS @ 2015</p>
+            </div>
         </footer>
+        <!-- footer section ends here -->
 
     </body>
 </html>

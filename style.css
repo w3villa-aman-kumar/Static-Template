@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* header section starts here */
+
 header{
     position: fixed;
     z-index: 1;
@@ -34,13 +36,15 @@ header{
     background-color: white;
 }
 
+/* header section ends here */
+
+/* hero section starts here */
+
 .Hero{
-    background-image: linear-gradient(rgb(67 69 74 / 50%), rgb(88 132 171 / 50%)),url(town.jpg);
+    background-image: linear-gradient(rgb(67 69 74 / 50%), rgb(88 132 171 / 50%)),url(./assets/town.jpg);
     height: 100vh;
     position: relative;
-    /* width: 100vh; */
     background-size: cover;
-    /* background-repeat: no-repeat; */
     background-position: center;
 }
 
@@ -49,7 +53,7 @@ header{
     top: 50%;
     left: 50%;
     font-size: 50px;
-    font-family: 'Noto Sans Lepcha';
+    font-family: 'Roboto';
     transform: translate(-50%,-50%);
     position: relative;
     color: white;
@@ -65,6 +69,8 @@ header{
     padding: 18px;
 }
 
+/* hero section ends here */
+
 /* our mission section css starts from here */
 
 .our-mission{
@@ -79,26 +85,27 @@ header{
     
 }
 
-.our-mission h1{
+.our-mission-titel{
     padding: 15px;
-    font-family: 'Noto Sans Lepcha';
-    font-size: 40px;
-    color: grey;
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: #545151;
 }
 
-.our-mission p{
+.our-mission-descp{
     color: slategray;
     padding: 2px;
+    font-size: 16px;
 }
 
 /* our mission section css ends here */
 
-/* our people section starts from here */
+/* our people section starts here */
 
 .our-people{
     background-color: #edf2f5;
     height: 100vh;
-    padding: 0px 188px;
+    padding: 0px 280px;
 }
 
 .our-people-text-card-wrapper{
@@ -111,16 +118,13 @@ header{
     text-align: center;
 }
 
-.our-people-text p{
+.our-people-descp{
     color: slategray;
     padding: 2px;
-    font-family: Poppins;
+    font-family: Roboto;
+    font-size: 16px;
 }
 
-.flex-wrapper{
-    display: flex;
-    justify-content: flex-start;
-}
 
 #our-people-card-wrapper{
     padding-top: 40px;
@@ -138,21 +142,23 @@ header{
 .our-people-name{
     padding: 20px 0px;
     color: #545151;
-    font-family: Poppins;
-    font-size: 20px;
+    font-family: Roboto;
+    font-size: 18px;
 }
 
 .our-people-post{
     padding-bottom: 5px;
     color: slategray;
-    font-family: Poppins;
+    font-family: Roboto;
+    font-size: 16px;
 
 }
 
 .our-people-tag{
     padding-top: 20px;
     color: slategray;
-    font-family: Poppins;
+    font-family: Roboto;
+    font-size: 16px;
 }
 
 .our-people-card img{
@@ -161,6 +167,8 @@ header{
     background-color: #D6D6D1;
     object-fit: contain;
 }
+
+/* our people section ends here */
 
 
 /* footer section starts here */
@@ -171,16 +179,16 @@ header{
 
 #footer-text-div{
     background-color: #fb6d9d;
-    padding: 60px 188px;
+    padding: 60px 280px;
     display: flex;
     justify-content: space-between;
 }
 
 #footer-text-div p{
     color: white;
-    font-family: Poppins;
+    font-family: Roboto;
     padding: 18px;
-
+    font-size: 20px;
 }
 
 #footer-text-div button{
@@ -192,3 +200,64 @@ header{
     text-align: center;
     padding: 18px;
 }
+
+#footer-detail-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    padding: 100px 280px;
+}
+
+.footer-detail-div{
+    padding-right: 200px;
+}
+
+#footer-detail-wrapper a:link{
+    text-decoration: none;
+    color: slategray;
+}
+
+#footer-detail-wrapper p{
+    color: slategray;
+    font-size: 16px;
+    font-family: Roboto;
+    padding: 10px 0px;
+}
+
+#footer-detail-wrapper h4{
+    font-size: 18px;
+    font-family: Roboto;
+    color: #545151;
+    padding-bottom: 10px;
+}
+
+.footer hr{
+    margin: 0px 280px;
+    color: slategray;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 280px 90px 280px;
+}
+
+.footer-bottom h2{
+    color: #545151;
+    font-size: 35px;
+}
+
+.footer-bottom p{
+    color: slategray;
+    font-size: 16px;
+}
+
+.social-svg{
+    padding-top: 70px;
+}
+
+.social-svg img{
+    height: 40px;
+    padding-right: 15px;
+}
+
+/* footer section ends here */
