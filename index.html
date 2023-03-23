@@ -3,34 +3,40 @@
     <head>
         <title>Marketing Platform</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/style.css">
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     </head>
     <body>
         <!-- header section starts here -->
         <header>
-            <nav>
-                <div class="nav-div">
-                    <div class="nav-div-logo">
-                        <h2>Achoo</h2>
-                        <p>BETA</p>
-                    </div>
-                    <ul class="nav-ul">
-                        <li>FEATURES</li>
-                        <li>PRICING</li>
-                        <li>ABOUT</li>
-                        <li>CONTACT</li>
-                        <li class="li-login">LOGIN</li>
-                        <li id="signup">SIGNUP</li>
-                        <li>
-                            <select name="country" class="country">
-                                <option value="india">🇮🇳</option>
-                                <option value="england">🇬🇧</option>
-                              </select>
-                        </li>
-                    </ul>
+            <div class="toggel-btn" onclick="myfunction();">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-div common-width">
+                <div class="nav-div-logo">
+                    <h2>Achoo</h2>
+                    <p>BETA</p>
                 </div>
-            </nav>
+                <nav id="nav-bar">
+                        <ul class="nav-ul">
+                            <li>FEATURES</li>
+                            <li>PRICING</li>
+                            <li>ABOUT</li>
+                            <li>CONTACT</li>
+                            <li class="li-login">LOGIN</li>
+                            <li id="signup">SIGNUP</li>
+                            <li>
+                                <select name="country" class="country">
+                                    <option value="india">🇮🇳</option>
+                                    <option value="england">🇬🇧</option>
+                                  </select>
+                            </li>
+                        </ul>
+                </nav>
+            </div>
         </header>
         <!-- header section ends here -->
 
@@ -48,47 +54,47 @@
         <section class="our-mission">
             <div>
                 <p class="our-mission-titel">Our Mission</p>
-                <p class="our-mission-descp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatem et accusantium beatae. </p>
-                <p class="our-mission-descp">A sapiente minima at alias consequatur sunt ullam obcaecati minus suscipit tenetur eum dolor beatae </p>
-                <p class="our-mission-descp">accusantium natus, doloribus consectetur iste, accusamus labore quibusdam numquam! Molestias error </p>
-                <p class="our-mission-descp">dignissimos quo iste rem numquam iure qui, tenetur ipsam soluta quaerat! Lorem ipsum dolor sit amet </p>
-                <p class="our-mission-descp">consectetur adipisicing elit Voluptatum.</p>
+                <p class="our-mission-descp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatem et accusantium beatae.
+                    A sapiente minima at alias consequatur sunt ullam obcaecati minus suscipit tenetur eum dolor beatae
+                    accusantium natus, doloribus consectetur iste, accusamus labore quibusdam numquam! Molestias error 
+                    dignissimos quo iste rem numquam iure qui, tenetur ipsam soluta quaerat! Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit Voluptatum.
+                </p>
             </div>
         </section>
         <!-- our mission section ends here -->
 
         <!-- our people section starts here -->
         <section class="our-people">
-            <div class="our-people-text-card-wrapper">
+            <div class="our-people-text-card-wrapper common-width">
                 <div class="our-people-text">
                     <p id="our-people-title">Our People</p>
-                    <p class="our-people-descp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum </p>
-                    <p class="our-people-descp">naliquid commodi assumenda laudantium doloremque voluptatem, h</p>
-                    <p class="our-people-descp">atempora, ex excepturi voluptates quidem consectetur iusto fugiatb</p>
-                    <p class="our-people-descp">voluptate dolorum sed odit.</p>
+                    <p class="our-people-descp">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+                        naliquid commodi assumenda laudantium doloremque voluptatem, h
+                        atempora, ex excepturi voluptates quidem consectetur iusto fugiatb
+                        voluptate dolorum sed odit.
+                    </p>
                 </div>
                 <div id="our-people-card-wrapper">
                     <div class="our-people-card">
-                        <img src="./assets/Profile_1.png" alt="profile">
+                        <img src="./assets/image/Profile_1.png" alt="profile">
                         <p class="our-people-name">Aman Kumar</p>
-                        <p class="our-people-post">CEO-Founder who makes easy to change and </p> 
-                        <p class="our-people-post">easy to create new elements</p>
+                        <p class="our-people-post">CEO-Founder who makes easy to change and easy to create new elements</p>
                         <hr>
                         <p class="our-people-tag">@achoo</p>
                     </div>
                     <div class="our-people-card">
-                        <img src="./assets/Profile_2.png" alt="profile">
+                        <img src="./assets/image/Profile_2.png" alt="profile">
                         <p class="our-people-name">Aman Kumar</p>
-                        <p class="our-people-post">CEO-Founder who makes easy to change and</p>
-                        <p class="our-people-post">easy to create new elements</p>
+                        <p class="our-people-post">CEO-Founder who makes easy to change and easy to create new elements</p>
                         <hr>
                         <p class="our-people-tag">@achoo</p>
                     </div>
                     <div class="our-people-card">
-                        <img src="./assets/Profile_3.png" alt="profile">
+                        <img src="./assets/image/Profile_3.png" alt="profile">
                         <p class="our-people-name">Aman Kumar</p>
-                        <p class="our-people-post">CEO-Founder who makes easy to change and</p>
-                        <p class="our-people-post">easy to create new elements</p>
+                        <p class="our-people-post">CEO-Founder who makes easy to change and easy to create new elements</p>
                         <hr>
                         <p class="our-people-tag">@achoo</p>
                     </div>
@@ -99,47 +105,57 @@
 
         <!-- footer section starts here -->
         <footer class="footer">
-            <div id="footer-text-div">
-                <p>No obligation or contacts. Achoo Influencer platform is available to all advertisers</p>
-                <button>START YOUR FREE TRIAL</button>
-            </div>
-            <div id="footer-detail-wrapper">
-                <div class="footer-detail-div">
-                    <h4>Achoo</h4>
-                    <p><a href="#">Home</a></p>
-                    <p><a href="#">Features</a></p>
-                    <p><a href="#">Pricing</a></p>
-                    <p><a href="#">About Us</a></p>
-                </div>
-    
-                <div class="footer-detail-div">
-                    <h4>Support</h4>
-                    <p><a href="#">Help & Support</a></p>
-                    <p><a href="#">Privacy Policy</a></p>
-                    <p><a href="#">Contact Us</a></p>
-                    <p><a href="#">Sign Up</a></p>
-                    <p><a href="#">Log in</a></p>
-                </div>
-    
-                <div class="footer-detail-div">
-                    <h4>Contact Us</h4>
-                    <p>Achoo ApS <br>Danneskiold-Samsoes Alle 41 <br>1434 Copenhagen K <br>Denmark</p>
-                    <p>Tel: +91 7004317912</p>
-                    <div class="social-svg">
-                        <img src="./assets/facebook-round.svg" alt="facebook logo">
-                        <img src="./assets/flickr-round.svg" alt="flicker logo">
-                        <img src="./assets/twitter-round.svg" alt="twitter">
-                        <img src="./assets/skype-round.svg" alt="skype logo">
+                <div id="footer-text-div">
+                    <div class="footer-text-container common-width">
+                        <p>No obligation or contacts. Achoo Influencer platform is available to all advertisers</p>
+                        <button>START YOUR FREE TRIAL</button>
                     </div>
                 </div>
-            </div>
-            <hr>
-            <div class="footer-bottom">
-                <h2>Achoo</h2>
-                <p>Achoo ApS @ 2015</p>
-            </div>
+                <div id="footer-detail-wrapper" class="common-width">
+                    <div class="footer-detail-div">
+                        <h4>Achoo</h4>
+                        <p><a href="#">Home</a></p>
+                        <p><a href="#">Features</a></p>
+                        <p><a href="#">Pricing</a></p>
+                        <p><a href="#">About Us</a></p>
+                    </div>
+        
+                    <div class="footer-detail-div">
+                        <h4>Support</h4>
+                        <p><a href="#">Help & Support</a></p>
+                        <p><a href="#">Privacy Policy</a></p>
+                        <p><a href="#">Contact Us</a></p>
+                        <p><a href="#">Sign Up</a></p>
+                        <p><a href="#">Log in</a></p>
+                    </div>
+        
+                    <div class="footer-detail-div">
+                        <h4>Contact Us</h4>
+                        <p>Achoo ApS <br>Danneskiold-Samsoes Alle 41 <br>1434 Copenhagen K <br>Denmark</p>
+                        <p>Tel: +91 7004317912</p>
+                        <div class="social-svg">
+                            <img src="./assets/image/facebook-round.svg" alt="facebook logo">
+                            <img src="./assets/image/flickr-round.svg" alt="flicker logo">
+                            <img src="./assets/image/twitter-round.svg" alt="twitter">
+                            <img src="./assets/image/skype-round.svg" alt="skype logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom-container common-width">
+                    <hr>
+                    <div class="footer-bottom">
+                        <h2>Achoo</h2>
+                        <p>Achoo ApS @ 2015</p>
+                    </div>
+                </div>
         </footer>
         <!-- footer section ends here -->
 
+        <script type="text/javascript">
+            function myfunction(){
+                var navbar = document.getElementById('nav-bar');
+                navbar.classList.toggle('show');
+            }
+        </script>
     </body>
 </html>
