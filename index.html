@@ -10,10 +10,10 @@
     <body>
         <!-- header section starts here -->
         <header>
-            <div class="toggel-btn" onclick="myfunction();">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="toggel-btn" onclick="myfunction(this);">
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
             </div>
             <div class="nav-div common-width">
                 <div class="nav-div-logo">
@@ -152,7 +152,8 @@
         <!-- footer section ends here -->
 
         <script type="text/javascript">
-            function myfunction(){
+            function myfunction(x){
+                x.classList.toggle("change")
                 var navbar = document.getElementById('nav-bar');
                 navbar.classList.toggle('show');
             }
